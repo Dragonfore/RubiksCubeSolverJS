@@ -12,20 +12,20 @@
     <canvas id="CubeDisplay"></canvas>
 
     <div id="ManualController">
-        <section><button>Top +</button></section>
-        <section><button>Top -</button></section>
-        <section><button>Left +</button></section>
-        <section><button>Left -</button></section>
-        <section><button>Bottom +</button></section>
-        <section><button>Bottom -</button></section>
-        <section><button>Right +</button></section>
-        <section><button>Right -</button></section>
-        <section><button>Back +</button></section>
-        <section><button>Back -</button></section>
-        <section><button>Front +</button></section>
-        <section><button>Front -</button></section>
-        <section><button>Solve</button></section>
-        <section><button>Shuffle</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'red', 1)">Red +</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'red', -1)">Red -</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'blue', 1)">Blue +</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'blue', -1)">Blue -</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'white', 1)">White +</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'white', -1)">White -</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'green', 1)">Green +</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'green', -1)">Green -</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'orange', 1)">Orange +</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'orange', -1)">Orange -</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'yellow', 1)">Yellow +</button></section>
+        <section><button onclick = "rotate_cube(this, event, 'yellow', -1)">Yellow -</button></section>
+        <section><button onclick = "solve_cube()">Solve</button></section>
+        <section><button onclick = "shuffle_cube()">Shuffle</button></section>
     </div>
 
 </body>
